@@ -1,0 +1,25 @@
+{
+    "name": "bruno/segundo-parcial",
+    "description": "",
+    "authors": [
+        {
+            "name": "bruno ",
+            "email": "brunogoffredo22@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^5.2",
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.2",
+        "illuminate/database": "^7.29",
+        "illuminate/events": "^7.29"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aplicacion\\": "src",
+            "Config\\": "config",
+            "Utils\\": "utils"
+
+        }
+    }
+}
